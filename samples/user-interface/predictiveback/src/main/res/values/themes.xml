@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><!--
+<!--
   ~ Copyright 2023 The Android Open Source Project
   ~
   ~ Licensed under the Apache License, Version 2.0 (the "License");
@@ -15,5 +15,13 @@
   -->
 
 <resources>
-    <dimen name="ultrahdr_color_mode_current_mode_padding">8dp</dimen>
+    <!-- Base application theme. -->
+    <style name="Base.Theme.PlatformSamples" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.PlatformSamples" parent="Base.Theme.PlatformSamples">
+
+    </style>
 </resources>

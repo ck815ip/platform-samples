@@ -1,5 +1,6 @@
+
 /*
- * Copyright 2023 Google LLC
+ * Copyright 2023 The Android Open Source Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -14,27 +15,22 @@
  * limitations under the License.
  */
 
+
 plugins {
     id("com.example.platform.sample")
+    alias(libs.plugins.kotlin.android)
 }
 
 android {
-    namespace = "com.example.platform.ui.windowmanager"
+    namespace = "com.example.platform.ui.predictiveback"
     buildFeatures {
         viewBinding = true
     }
 }
 
 dependencies {
-    implementation(libs.mdc)
-    implementation(libs.androidx.window)
-    implementation(libs.androidx.window.java)
-    implementation(libs.androidx.window.rxjava2)
-    implementation(libs.androidx.window.core)
-    implementation(libs.rxjava2.android)
-    implementation(libs.androidx.startup)
+    implementation(libs.androidx.appcompat)
     implementation(libs.androidx.constraintlayout)
-    implementation(libs.androidx.media3.exoplayer)
-    implementation(libs.androidx.media3.ui)
-    implementation(libs.androidx.core)
+    implementation(libs.mdc)
+    // Add samples specific dependencies
 }

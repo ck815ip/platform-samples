@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><!--
+<!--
   ~ Copyright 2023 The Android Open Source Project
   ~
   ~ Licensed under the Apache License, Version 2.0 (the "License");
@@ -15,5 +15,11 @@
   -->
 
 <resources>
-    <dimen name="ultrahdr_color_mode_current_mode_padding">8dp</dimen>
+
+    <style name="Theme.PlatformSamples" parent="Base.Theme.PlatformSamples">
+        <!-- Transparent system bars for edge-to-edge. -->
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
 </resources>

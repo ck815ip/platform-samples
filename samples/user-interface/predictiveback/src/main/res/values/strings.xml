@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><!--
+<!--
   ~ Copyright 2023 The Android Open Source Project
   ~
   ~ Licensed under the Apache License, Version 2.0 (the "License");
@@ -15,5 +15,6 @@
   -->
 
 <resources>
-    <dimen name="ultrahdr_color_mode_current_mode_padding">8dp</dimen>
+    <string name="title_activity_predictive_back_sample">PredictiveBackSample</string>
+    <string name="predictive_back_sample_first_activity_header">Predictive Back Samples</string>
 </resources>

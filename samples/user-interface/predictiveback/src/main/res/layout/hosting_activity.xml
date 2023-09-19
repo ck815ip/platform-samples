@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?><!--
+<?xml version="1.0" encoding="utf-8"?>
+<!--
   ~ Copyright 2023 The Android Open Source Project
   ~
   ~ Licensed under the Apache License, Version 2.0 (the "License");
@@ -14,6 +15,11 @@
   ~ limitations under the License.
   -->
 
-<resources>
-    <dimen name="ultrahdr_color_mode_current_mode_padding">8dp</dimen>
-</resources>
+<androidx.fragment.app.FragmentContainerView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragment_container"
+    android:name="com.example.platform.ui.predictiveback.PBListFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PBHostingActivity" />
