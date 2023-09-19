@@ -1,5 +1,7 @@
 # Available Samples
 
+- [](user-interface/predictiveback/src/main/java/com/example/platform/ui/predictiveback/PBHostingActivity.kt):
+
 - [App Widgets](user-interface/appwidgets/src/main/java/com/example/platform/ui/appwidgets/AppWidgets.kt):
 Showcases how to pin widget within the app. Check the launcher widget menu for all the app widgets samples
 - [Call Notification Sample](connectivity/callnotification/src/main/java/com/example/platform/connectivity/callnotification/CallNotificationSample.kt):
@@ -24,12 +26,8 @@ Shows how to create a GATT server and communicate with the GATT client
 Demonstrates how to implement data access auditing for your app to identify 
 - [Displaying UltraHDR](graphics/ultrahdr/src/main/java/com/example/platform/graphics/ultrahdr/display/DisplayingUltraHDR.kt):
 This sample demonstrates displaying an UltraHDR image.
-- [Displaying UltraHDR (Coil)](graphics/ultrahdr/src/main/java/com/example/platform/graphics/ultrahdr/display/DisplayingUltraHDRUsingCoil.kt):
-This sample demonstrates using the Glide image loading library to detect the
-- [Displaying UltraHDR (Fresco)](graphics/ultrahdr/src/main/java/com/example/platform/graphics/ultrahdr/display/DisplayingUltraHDRUsingFresco.kt):
-This sample demonstrates using the Fresco's ImagePipline class to detect the
-- [Displaying UltraHDR (Glide)](graphics/ultrahdr/src/main/java/com/example/platform/graphics/ultrahdr/display/DisplayingUltraHDRUsingGlide.kt):
-This sample demonstrates using the Glide image loading library to detect the
+- [Displaying UltraHDR (3P Libraries)](graphics/ultrahdr/src/main/java/com/example/platform/graphics/ultrahdr/display/DisplayingUltraHDRUsing3PLibrary.kt):
+This sample demonstrates using the various popular image loading library to
 - [Downloadable Fonts](user-interface/text/src/main/java/com/example/platform/ui/text/DownloadableFonts.kt):
 Download fonts instead of bundling them in the app resources.
 - [Drag and Drop](user-interface/draganddrop/src/main/java/com/example/platform/ui/draganddrop/DragAndDrop.kt):
@@ -84,7 +82,6 @@ Select images/videos in a privacy-friendly way using the photo picker
 Basic usage of Picture-in-Picture mode showcasing a stopwatch
 - [Picture in Picture (PiP) - Video playback](user-interface/picture-in-picture/src/main/java/com/example/android/pip/PiPMovieActivity.kt):
 Basic usage of Picture-in-Picture mode showcasing video playback
-- [Predictive Back](user-interface/predictiveback/src/main/java/com/example/platform/ui/predictiveback/PBHostingActivity.kt):
 - [Quick Settings](user-interface/quicksettings/src/main/java/com/example/platform/ui/quicksettings/QuickSettings.kt):
 Add your custom tile to the Quick Settings.
 - [Scan with BLE Intent](connectivity/bluetooth/ble/src/main/java/com/example/platform/connectivity/bluetooth/ble/BLEScanIntentSample.kt):
